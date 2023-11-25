@@ -2,7 +2,7 @@
 //conexion a la base de datos
 $servername = "localhost";
 $username = "root";
-$pasword = "root";
+$pasword = "";
 $bdname = "libreria";
 $conn = new mysqli($servername, $username, $pasword, $bdname);
 
